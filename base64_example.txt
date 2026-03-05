@@ -1,0 +1,8 @@
+Original Data:
+User login: bablu@example.com
+
+Base64 Encoded:
+VXNlciBsb2dpbjogYmFibHVAZXhhbXBsZS5jb20=
+
+Explanation:
+Base64 encoding converts binary data into ASCII characters so it can be safely transmitted through web protocols such as HTTP, SMTP, and APIs.
