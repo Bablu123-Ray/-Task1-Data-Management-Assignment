@@ -1,0 +1,49 @@
+# Task 1 – Secure Data Exchange with Encoding Formats
+
+This task demonstrates how encoding formats such as Base64 help in secure data transmission across modern web protocols.
+
+## Encoding Demonstration
+
+The Python script `encoding_demo.py` demonstrates:
+
+1. Encoding data using Base64
+2. Sending encoded data through a network
+3. Decoding the data on the receiver side
+
+## Example Use Cases
+
+Encoding is commonly used in:
+
+- Email transmission (SMTP)
+- Web authentication (HTTP headers)
+- REST APIs
+- Secure file transfer
+
+## Security Considerations
+
+Although encoding formats such as Base64 make data safe for transmission, they do not provide encryption. Attackers sometimes use encoding to hide malicious payloads.
+
+Therefore, encoding is usually combined with secure protocols such as:
+
+- HTTPS
+- TLS
+
+## Diagram – Secure Data Exchange
+
+![Secure Data Exchange Diagram](diagram.png)
+
+### Data Flow
+
+User Data  
+↓  
+Base64 Encoding  
+↓  
+HTTPS / TLS Encryption  
+↓  
+Internet Transmission  
+↓  
+Server  
+↓  
+Decoding  
+↓  
+Processing
